@@ -73,13 +73,13 @@ public class Koch {
 		StdDraw.setXscale(0, 1.1);
 		// Draws a Koch snowflake of depth n
 		//// Write the rest of your code below.
-		
+
 		double x1 = 0.1;
 		double y1 = 0.3;
 		double x2 = 1;
 		double y2 = y1;
-		double x3 = (x1+x2)/2;
-		double y3 = y1 + ((Math.sqrt(3) * (x2-x1)) / 2);
+		double x3 = (x1 + x2) / 2;
+		double y3 = y1 + ((Math.sqrt(3) * (x2 - x1)) / 2);
 
 		curve(5, x2, y2, x1, y1);
 		curve(5, x3, y3, x2, y2);
